@@ -1,0 +1,8 @@
+/openssl-*
+/curl-*
+**/obj
+key.json
+.clangd/
+.DS_Store
+.local
+node_modules

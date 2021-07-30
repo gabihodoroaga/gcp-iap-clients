@@ -1,0 +1,28 @@
+[
+ {
+  "directory": "/Users/gabrielhodoroaga/Projects/github/gabihodoroaga/gcp-iap-clients/c_openssl",
+  "arguments": [
+   "gcc",
+   "-c",
+   "-o",
+   "obj/iap.o",
+   "iap.c",
+   "-I../openssl-1.1.1h/.openssl/include",
+   "-I../curl-7.77.0/.curl/include"
+  ],
+  "file": "iap.c"
+ },
+ {
+  "directory": "/Users/gabrielhodoroaga/Projects/github/gabihodoroaga/gcp-iap-clients/c_openssl",
+  "arguments": [
+   "gcc",
+   "-c",
+   "-o",
+   "obj/main.o",
+   "main.c",
+   "-I../openssl-1.1.1h/.openssl/include",
+   "-I../curl-7.77.0/.curl/include"
+  ],
+  "file": "main.c"
+ }
+]
